@@ -1,0 +1,124 @@
+.hint {
+    width: 100%;
+    height: 100px;
+    border: 2px dashed black;
+    margin-top: 71px;
+    margin-left: -2px;
+}
+.reset:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+.reset {
+    background-color: rgb(116, 11, 11);
+    color: black;
+    width: 80px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 610px;
+    border: 1px solid black;
+    font-size: 18px;
+    position: absolute;
+    border-radius: 10px;
+}
+.nextround {
+    
+    background-color: rgb(109, 235, 130);
+    color: black;
+    width: 80px;
+    height: 50px;
+    margin-top: 20px;
+    margin-right: 610px;
+    border: 1px solid black;
+    font-size: 18px;
+    position: absolute;
+    border-radius: 10px;
+
+}
+.nextround:hover {
+    cursor: pointer;
+    background-color: rgb(38, 224, 69);
+    color: white;
+}
+.tries {
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 50px;
+}
+.butt:hover{
+    cursor: pointer;
+    background-color: rgb(112, 199, 30);
+}
+.butt {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    background-color: beige;
+    border: 2px solid black;
+}
+.inp {
+    width: 300px;
+    height: 80px;
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+body {
+    background-color: beige;
+}
+
+.container {
+    width: 700px;
+    height: 700px;
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    margin-top: 20px;
+    border: 8px solid black;
+    
+}
+
+.name {
+    width: 240px;
+    height: 70px;
+    border: 3px solid black;
+    text-align: left;
+}
+
+.namep {
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.myh1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+.hintheading {
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    top: 55%;
+    font-size: 20px;
+    background-color: black;
+    color: greenyellow;
+    width: 90px;
+    left: 47%;
+}
